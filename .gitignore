@@ -1,0 +1,127 @@
+# General files to ignore
+.DS_Store
+.idea/
+*.iml
+*.class
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Maven build directories
+target/
+!src/main/resources/
+
+# Logs and OS files
+*.log
+*.out
+*.pid
+
+# Ignore IntelliJ IDEA project files
+*.ipr
+*.iws
+.idea/
+out/
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore NetBeans project files
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore node_modules if using front-end with node.js in any part
+node_modules/
+
+# Ignore Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Java-related
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore build directories
+build/
+dist/
+*/build/
+*/dist/
+
+# Ignore Docker files
+.dockerignore
+docker-compose.yml
+Dockerfile
+
+# Ignore Kubernetes files
+*.yaml
+*.yml
+
+# Ignore package-lock and yarn-lock
+package-lock.json
+yarn.lock
+
+# Specific exclusions for each service (if needed)
+deliveryboy/target/
+enduser/target/
+
+# Ignore virtual environments (Python)
+venv/
+ENV/
+.env
+.venv/
+
+# Ignore environment variables files
+.env
+.env.local
+.env.*.local
+
+# Ignore dependency directories
+/.pnp
+.pnp.js
+
+# Ignore runtime files
+coverage/
+.nyc_output/

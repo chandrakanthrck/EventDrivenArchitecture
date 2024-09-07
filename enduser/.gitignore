@@ -1,0 +1,60 @@
+### General ###
+.DS_Store
+HELP.md
+
+### Build Directories ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Maven ###
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Visual Studio Code ###
+.vscode/
+
+### Node.js ###
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+### Logs ###
+*.log
+
+### OS generated files ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Temporary files ###
+*.tmp
+*.swp
